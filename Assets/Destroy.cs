@@ -16,6 +16,9 @@ public class Destroy : MonoBehaviour {
 
     public void Destroyer()
     {
-        Application.Quit();
+        if (Input.touchCount > 1)
+        {
+            Application.Quit();
+        }
     }
 }
