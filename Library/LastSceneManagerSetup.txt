@@ -1,16 +1,16 @@
 sceneSetups:
-- path: Assets/Our_Scene.unity
+- path: Assets/First Room Ever.unity
   isLoaded: 0
   isActive: 0
+- path: Assets/North 1st Floor.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Lab 3 Room.unity
+  isLoaded: 1
+  isActive: 1
 - path: Assets/Bench.unity
   isLoaded: 0
   isActive: 0
 - path: Assets/Door.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Window.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Lab 3 Room.unity
-  isLoaded: 1
-  isActive: 1

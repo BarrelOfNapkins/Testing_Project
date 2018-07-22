@@ -53,9 +53,6 @@
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -70,9 +67,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
@@ -131,8 +125,12 @@
     <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
+    <Compile Include="Assets\Load1stfloor_unloadlab.cs" />
+    <Compile Include="Assets\LoadLab_Unload1stfloor.cs" />
+    <Compile Include="Assets\OnStartup.cs" />
     <Compile Include="Assets\SimpleMovement.cs" />
     <Compile Include="Assets\TouchTest.cs" />
+    <Compile Include="Assets\dont_destroy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
@@ -142,6 +140,7 @@
     <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
