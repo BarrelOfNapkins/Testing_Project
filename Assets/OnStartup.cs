@@ -9,6 +9,7 @@ public class OnStartup : MonoBehaviour {
 	void Start () {
         SceneManager.UnloadSceneAsync("North 1st Floor");
         SceneManager.UnloadSceneAsync("Lab 3 Room");
+        SceneManager.UnloadSceneAsync("North 1st Floor South");
     }
 	
 	// Update is called once per frame

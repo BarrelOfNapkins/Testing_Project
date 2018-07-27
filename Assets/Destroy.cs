@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Destroy : MonoBehaviour {
-
 	// Use this for initialization
 	void Start () {
 		
@@ -16,7 +15,7 @@ public class Destroy : MonoBehaviour {
 
     public void Destroyer()
     {
-        if (Input.touchCount > 1)
+        if (Input.touchCount > 3)
         {
             Application.Quit();
         }
