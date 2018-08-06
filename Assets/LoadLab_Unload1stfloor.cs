@@ -17,9 +17,9 @@ public class LoadLab_Unload1stfloor : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("lab 3 load please");
-// SceneManager.UnloadSceneAsync("North 1st Floor");
-// SceneManager.LoadScene("Lab 3 Room", LoadSceneMode.Additive);
+		GameObject Main_Camera = GameObject.Find("Main Camera");
+		Main_Camera.transform.rotation = Quaternion.Euler(0, -90, 0);
         SceneManager.LoadScene("Lab 3 Room");
+		Main_Camera.transform.position = new Vector3 (-738, 50, -2470);
     }
 }

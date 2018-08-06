@@ -1,9 +1,6 @@
 sceneSetups:
-- path: Assets/First Room Ever.unity
-  isLoaded: 0
-  isActive: 0
 - path: Assets/North 1st Floor.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
 - path: Assets/Lab 3 Room.unity
   isLoaded: 0
@@ -14,12 +11,12 @@ sceneSetups:
 - path: Assets/Door.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/North 1st Floor South.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Hallway_To_South_West.unity
-  isLoaded: 1
-  isActive: 1
 - path: Assets/Window.unity
   isLoaded: 0
+  isActive: 0
+- path: Assets/First Room Ever.unity
+  isLoaded: 1
+  isActive: 1
+- path: Assets/South_Side.unity
+  isLoaded: 1
   isActive: 0

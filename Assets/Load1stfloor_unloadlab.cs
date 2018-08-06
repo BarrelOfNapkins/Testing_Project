@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Load1stfloor_unloadlab : MonoBehaviour
 {
-
     // Use this for initialization
     void Start()
     {
@@ -20,9 +19,9 @@ public class Load1stfloor_unloadlab : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Entered");
-        // SceneManager.UnloadSceneAsync("Lab 3 Room");
-        // SceneManager.LoadScene("North 1st Floor", LoadSceneMode.Additive);
+		GameObject Main_Camera = GameObject.Find("Main Camera");
+		Main_Camera.transform.rotation = Quaternion.Euler(0, 235, 0);
         SceneManager.LoadScene("North 1st Floor");
+		Main_Camera.transform.position = new Vector3 (-1437, 50, -1213);
     }
 }
