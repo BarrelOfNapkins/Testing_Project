@@ -5,23 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Load1stfloor_unloadlab : MonoBehaviour
 {
+	private Camera Main_Camera;
     // Use this for initialization
     void Start()
     {
-
+		Main_Camera = Camera.main;
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnTriggerEnter(Collider other)
     {
-		GameObject Main_Camera = GameObject.Find("Main Camera");
-		Main_Camera.transform.rotation = Quaternion.Euler(0, 235, 0);
+		//Main_Camera.transform.rotation = Quaternion.Euler(0, 235, 0);
         SceneManager.LoadScene("North 1st Floor");
-		Main_Camera.transform.position = new Vector3 (-1437, 50, -1213);
+		Main_Camera.transform.position = new Vector3 (-1437, 60, -1213);
     }
 }

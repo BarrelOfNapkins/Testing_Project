@@ -11,10 +11,6 @@ public class Light_Toggle : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
-    }
     public void Toggle_Light()
     {
         if (Input.touchCount == 2)

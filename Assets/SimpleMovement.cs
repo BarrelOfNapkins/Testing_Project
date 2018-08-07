@@ -14,11 +14,11 @@ public class SimpleMovement : MonoBehaviour {
 	}
     private void Update()
     {
-        CharacterController controller = GetComponent<CharacterController>();
-        transform.Rotate(0, Input.GetAxis("Horizontal") * RotateSpeed, 0);
-        Vector3 forward = transform.TransformDirection(Vector3.forward);
-        float curSpeed = Speed; //* Input.GetAxis("Vertical");
-        controller.SimpleMove(forward * curSpeed);
+		CharacterController controller = GetComponent<CharacterController> ();
+		transform.Rotate (0, Input.GetAxis ("Horizontal") * RotateSpeed, 0);
+		Vector3 forward = transform.TransformDirection (Vector3.forward);
+		float curSpeed = Speed; //* Input.GetAxis("Vertical");
+		controller.SimpleMove (forward * curSpeed);
     }
 
     public void MoveForward()

@@ -12,7 +12,4 @@ public class OnStartup : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
 }

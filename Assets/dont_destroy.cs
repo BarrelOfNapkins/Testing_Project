@@ -10,7 +10,4 @@ public class dont_destroy : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
-		
-	}
 }

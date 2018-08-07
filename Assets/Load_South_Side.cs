@@ -4,13 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Load_South_Side : MonoBehaviour {
-
+	private Camera Main_Camera;
+	// Use this for initialization
+	void Start () {
+		Main_Camera = Camera.main;
+	}
 	private void OnTriggerEnter(Collider other)
 	{
-		GameObject Main_Camera = GameObject.Find("Main Camera");
 		SceneManager.LoadScene("South_Side");
-		Main_Camera.transform.position = new Vector3 (-64, 71, -34);
+		Main_Camera.transform.position = new Vector3 (-64, 60, -34);
 		//Main_Camera.transform.eulerAngles = new Vector3(0, 90, 0);
-		Main_Camera.transform.Rotate(0, 0, 0, Space.World);
+		//Main_Camera.transform.Rotate(0, 0, 45, Space.World);
 	}
 }
