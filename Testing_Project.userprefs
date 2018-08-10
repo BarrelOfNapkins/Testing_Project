@@ -1,29 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LoadLab_Unload1stfloor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GoogleVR\Scripts\Controller\GvrController.cs">
     <Files>
-      <File FileName="Assets\OnStartup.cs" Line="14" Column="36" />
-      <File FileName="Assets\dont_destroy.cs" Line="12" Column="39" />
-      <File FileName="Assets\LoadLab_Unload1stfloor.cs" Line="18" Column="65" />
-      <File FileName="Assets\Load_South_Side.cs" Line="17" Column="5" />
-      <File FileName="Assets\Load1stfloor_unloadlab.cs" Line="19" Column="5" />
-      <File FileName="Assets\SimpleMovement.cs" Line="20" Column="43" />
-      <File FileName="Assets\load_1st_floor_unload_south.cs" Line="16" Column="35" />
-      <File FileName="Assets\Light_Toggle.cs" Line="13" Column="39" />
-      <File FileName="Assets\Destroy.cs" Line="11" Column="36" />
-      <File FileName="Assets\TouchTest.cs" Line="1" Column="1" />
-      <File FileName="Assets\change_camera_clipping.cs" Line="12" Column="29" />
-      <File FileName="Assets\GoogleVR\Scripts\Controller\GvrController.cs" Line="280" Column="1" />
-      <File FileName="Assets\GoogleVR\Scripts\GazeInputModule.cs" Line="319" Column="91" />
+      <File FileName="Assets\GoogleVR\Scripts\Controller\GvrController.cs" Line="1" Column="1" />
+      <File FileName="Assets\GoogleVR\Scripts\GazeInputModule.cs" Line="1" Column="1" />
       <File FileName="Assets\GoogleVR\Scripts\GvrSettings.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoogleVR\Scripts\GvrViewer.cs" Line="301" Column="11" />
+      <File FileName="Assets\GoogleVR\Scripts\GvrViewer.cs" Line="1" Column="1" />
       <File FileName="Assets\GoogleVR\Scripts\Pose3D.cs" Line="1" Column="1" />
       <File FileName="Assets\GoogleVR\Scripts\UI\GvrGaze.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" Line="6" Column="3" />
+      <File FileName="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" Line="1" Column="1" />
       <File FileName="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" Line="164" Column="25" />
-      <File FileName="Assets\GoogleVR\Legacy\Scripts\Internal\StereoController.cs" Line="272" Column="26" />
-      <File FileName="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" Line="56" Column="1" />
+      <File FileName="Assets\GoogleVR\Legacy\Scripts\Internal\GvrEye.cs" Line="1" Column="1" />
+      <File FileName="Assets\GoogleVR\Legacy\Scripts\Internal\StereoController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

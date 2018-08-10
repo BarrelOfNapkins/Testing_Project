@@ -1,13 +1,13 @@
 sceneSetups:
-- path: Assets/North 1st Floor.unity
+- path: Assets/Scenes/Final_Scenes/Lab 3 Room.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/South_Side.unity
-  isLoaded: 1
+- path: Assets/Scenes/Final_Scenes/North 1st Floor.unity
+  isLoaded: 0
   isActive: 0
-- path: Assets/First Room Ever.unity
+- path: Assets/Scenes/Final_Scenes/South_Side.unity
   isLoaded: 1
   isActive: 1
-- path: Assets/Lab 3 Room.unity
+- path: Assets/Scenes/Final_Scenes/First Room Ever.unity
   isLoaded: 1
   isActive: 0
